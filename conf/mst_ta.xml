@@ -1,0 +1,183 @@
+<mst_ta>
+  <fun name="MINUS_DM" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="MINUS_DI" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="PLUS_DM" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="PLUS_DI" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="DX" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ADX" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ADXR" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="EMA" target="0" unstableperiod="0">
+    <timeperiod io="in">20</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="SMA" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="WMA" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="MACD" target="0" unstableperiod="0">
+    <fastperiod io="in">12</fastperiod>
+    <slowperiod io="in">26</slowperiod>
+    <signalperiod io="in">9</signalperiod>
+    <macd io="out" type="double[]">real1</macd>
+    <signal io="out" type="double[]">real2</signal>
+    <hist io="out" type="double[]">real3</hist>
+  </fun>
+  <fun name="MACD_FIX" target="0" unstableperiod="0">
+    <signalperiod io="in">9</signalperiod>
+    <macd io="out" type="double[]">real1</macd>
+    <signal io="out" type="double[]">real2</signal>
+    <hist io="out" type="double[]">real3</hist>
+  </fun>
+  <fun name="MACD_EXT" target="0" unstableperiod="0">
+    <fastperiod io="in">12</fastperiod>
+    <fastmatype io="in">TA_MAType_EMA</fastmatype>
+    <slowperiod io="in">26</slowperiod>
+    <slowmatype io="in">TA_MAType_EMA</slowmatype>
+    <signalperiod io="in">9</signalperiod>
+    <signalmatype io="in">TA_MAType_EMA</signalmatype>
+    <macd io="out" type="double[]">real1</macd>
+    <signal io="out" type="double[]">real2</signal>
+    <hist io="out" type="double[]">real3</hist>
+  </fun>
+  <fun name="RSI" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="CMO" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="SAR" target="0" unstableperiod="0">
+    <acceleration io="in">0.02</acceleration>
+    <maximum io="in">0.20</maximum>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="STOCH" target="0" unstableperiod="0">
+    <fastkperiod io="in">73</fastkperiod>
+    <slowkperiod io="in">19</slowkperiod>
+    <slowkmatype io="in">TA_MAType_EMA</slowkmatype>
+    <slowdperiod io="in">19</slowdperiod>
+    <slowdmatype io="in">TA_MAType_EMA</slowdmatype>
+    <slowk io="out" type="double[]">real1</slowk>
+    <slowd io="out" type="double[]">real2</slowd>
+  </fun>
+  <fun name="STOCHF" target="0" unstableperiod="0">
+    <fastkperiod io="in">5</fastkperiod>
+    <fastdperiod io="in">3</fastdperiod>
+    <fastdmatype io="in">TA_MAType_EMA</fastdmatype>
+    <fastk io="out" type="double[]">real1</fastk>
+    <fastd io="out" type="double[]">real2</fastd>
+  </fun>
+  <fun name="STOCHRSI" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <fastkperiod io="in">5</fastkperiod>
+    <fastdperiod io="in">3</fastdperiod>
+    <fastdmatype io="in">TA_MAType_EMA</fastdmatype>
+    <fastk io="out" type="double[]">real1</fastk>
+    <fastd io="out" type="double[]">real2</fastd>
+  </fun>
+  <fun name="HT_DCPERIOD" target="0" unstableperiod="0">
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="HT_DCPHASE" target="0" unstableperiod="0">
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="HT_PHASOR" target="0" unstableperiod="0">
+    <inphase io="out" type="double[]">real1</inphase>
+    <quadrature io="out" type="double[]">real2</quadrature>
+  </fun>
+  <fun name="HT_QUADRA" target="0" unstableperiod="0">
+  </fun>
+  <fun name="HT_SINE" target="0" unstableperiod="0">
+    <sine io="out" type="double[]">real1</sine>
+    <leadsine io="out" type="double[]">real2</leadsine>
+  </fun>
+  <fun name="HT_TRENDLINE" target="0" unstableperiod="0">
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="HT_TRENDMODE" target="0" unstableperiod="0">
+    <integer io="out" type="double[]">integer</integer>
+  </fun>
+  <fun name="BBAND" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <nbdevup io="in">2.0</nbdevup>
+    <nbdevdn io="in">2.0</nbdevdn>
+    <matype io="in">TA_MAType_EMA</matype>
+    <upperband io="out" type="double[]">real1</upperband>
+    <middleband io="out" type="double[]">real2</middleband>
+    <lowerband io="out" type="double[]">real3</lowerband>
+  </fun>
+  <fun name="MIN" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="MAX" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="MOM" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ROC" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ROCP" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ROCR" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="APO" target="0" unstableperiod="0">
+    <fastperiod io="in">12</fastperiod>
+    <slowperiod io="in">26</slowperiod>
+    <matype io="in">TA_MAType_EMA</matype>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="PPO" target="0" unstableperiod="0">
+    <fastperiod io="in">12</fastperiod>
+    <slowperiod io="in">26</slowperiod>
+    <matype io="in">TA_MAType_EMA</matype>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="STDDEV" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <nbdev io="in">1.5</nbdev>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="ATR" target="0" unstableperiod="0">
+    <timeperiod io="in">14</timeperiod>
+    <real io="out" type="double[]">real1</real>
+  </fun>
+  <fun name="TRANGE" target="0" unstableperiod="0">
+    <real io="out" type="double[]">real1</real>
+  </fun>
+</mst_ta>

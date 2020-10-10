@@ -1,0 +1,18 @@
+<mst_rate>
+  <period>
+    <item target="0" isimpl="0">t1</item>
+    <item target="0" isimpl="0">m1</item>
+    <item target="0" isimpl="0">m5</item>
+    <item target="1" isimpl="1">m15</item>
+    <item target="0" isimpl="0">m30</item>
+    <item target="0" isimpl="0">H1</item>
+    <item target="0" isimpl="0">H2</item>
+    <item target="0" isimpl="0">H3</item>
+    <item target="0" isimpl="0">H4</item>
+    <item target="0" isimpl="0">H6</item>
+    <item target="0" isimpl="0">H8</item>
+    <item target="0" isimpl="0">D1</item>
+    <item target="0" isimpl="0">W1</item>
+    <item target="0" isimpl="0">M1</item>
+  </period>
+</mst_rate>

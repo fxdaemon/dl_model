@@ -1,0 +1,59 @@
+<tst_implplan>
+
+  <implparam isimpl="1">
+    <symbol>COM1</symbol>
+    <placeorder name="order_pre">
+      <method name="LoadContext">
+        <property name="orderstop_from_wday" value="6" />
+        <property name="orderstop_from_hour" value="1" />
+      </method>
+    </placeorder>
+  </implparam>
+
+  <implparam isimpl="1">
+    <symbol>EUR/JPY</symbol>
+    <placeorder name="order_open">
+      <method name="MacdCross">
+        <property name="period" value="m15" />
+        <property name="stop" value="100" />
+        <property name="limit" value="180" />
+        <property name="trailname" value="trailmove_eqdiff?50:1:40:10" />
+      </method>
+    </placeorder>
+  </implparam>
+
+  <implparam isimpl="1">
+    <symbol>EUR/USD</symbol>
+    <placeorder name="order_open">
+      <method name="MacdCross">
+        <property name="period" value="m15" />
+        <property name="stop" value="100" />
+        <property name="limit" value="180" />
+        <property name="trailname" value="trailmove_eqdiff?50:1:40:10" />
+      </method>
+    </placeorder>
+  </implparam>
+
+  <implparam isimpl="1">
+    <symbol>USD/JPY</symbol>
+    <placeorder name="order_open">
+      <method name="MacdCross">
+        <property name="period" value="m15" />
+        <property name="stop" value="100" />
+        <property name="limit" value="180" />
+        <property name="trailname" value="trailmove_eqdiff?50:1:40:10" />
+      </method>
+    </placeorder>
+  </implparam>
+
+  <implparam isimpl="1">
+    <symbol>COM9</symbol>
+    <placeorder name="order_flw">
+      <method name="CloseAll">
+        <property name="close_wday" value="6" />
+        <property name="close_hour" value="5" />
+      </method>
+    </placeorder>
+  </implparam>
+
+</tst_implplan>

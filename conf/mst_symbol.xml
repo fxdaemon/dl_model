@@ -1,0 +1,30 @@
+<mst_instrument>
+  <item target="1" id="16" pointsize="0.0001">AUD/CAD</item>
+  <item target="1" id="39" pointsize="0.0001">AUD/CHF</item>
+  <item target="1" id="17" pointsize="0.01">AUD/JPY</item>
+  <item target="1" id="28" pointsize="0.0001">AUD/NZD</item>
+  <item target="1" id="6" pointsize="0.0001">AUD/USD</item>
+  <item target="1" id="90" pointsize="0.0001">CAD/CHF</item>
+  <item target="1" id="18" pointsize="0.01">CAD/JPY</item>
+  <item target="1" id="12" pointsize="0.01">CHF/JPY</item>
+  <item target="1" id="14" pointsize="0.0001">EUR/AUD</item>
+  <item target="1" id="15" pointsize="0.0001">EUR/CAD</item>
+  <item target="1" id="5" pointsize="0.0001">EUR/CHF</item>
+  <item target="1" id="9" pointsize="0.0001">EUR/GBP</item>
+  <item target="1" id="10" pointsize="0.01">EUR/JPY</item>
+  <item target="1" id="40" pointsize="0.0001">EUR/NZD</item>
+  <item target="1" id="1" pointsize="0.0001">EUR/USD</item>
+  <item target="1" id="22" pointsize="0.0001">GBP/AUD</item>
+  <item target="1" id="20" pointsize="0.0001">GBP/CAD</item>
+  <item target="1" id="13" pointsize="0.0001">GBP/CHF</item>
+  <item target="1" id="11" pointsize="0.01">GBP/JPY</item>
+  <item target="1" id="21" pointsize="0.0001">GBP/NZD</item>
+  <item target="1" id="3" pointsize="0.0001">GBP/USD</item>
+  <item target="1" id="91" pointsize="0.0001">NZD/CAD</item>
+  <item target="1" id="89" pointsize="0.0001">NZD/CHF</item>
+  <item target="1" id="19" pointsize="0.01">NZD/JPY</item>
+  <item target="1" id="8" pointsize="0.0001">NZD/USD</item>
+  <item target="1" id="7" pointsize="0.0001">USD/CAD</item>
+  <item target="1" id="4" pointsize="0.0001">USD/CHF</item>
+  <item target="1" id="2" pointsize="0.01">USD/JPY</item>
+</mst_instrument>
